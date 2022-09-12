@@ -1,0 +1,40 @@
+.circle {
+    width: 150px;
+	height: 150px;
+	background-color: #120ef3;
+	border-radius: 100%;
+    position: absolute;
+    left: 650px;
+    top: 95px;
+    z-index: 1;
+  }
+  .circle2 {
+    width: 150px;
+	height: 150px;
+	background-color: #eaee08;
+	border-radius: 100%;
+    position: absolute;
+    left: 500px;
+    top: 95px;
+    z-index: 2;
+  }
+  .circle3 {
+    width: 150px;
+	height: 150px;
+	background-color: #F34A53;
+	border-radius: 100%;
+    position: absolute;
+    left: 570px;
+    top: 0px;
+    z-index: 3;
+  }
+  .triangle {
+	border-left: 150px solid transparent;
+	border-right: 150px solid transparent;
+	border-bottom: 380px solid #ff6600;
+    transform: rotate(180deg);
+    position: absolute;
+    left: 500px;
+    top: 220px;
+    z-index: 4;
+  }
